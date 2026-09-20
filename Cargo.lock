@@ -5160,6 +5160,7 @@ dependencies = [
  "bevy",
  "bevy_asset",
  "blake3",
+ "serde",
 ]
 
 [[package]]
