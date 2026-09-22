@@ -15,6 +15,8 @@ use states::AppState;
 use types::VtuberDocument;
 
 fn main() {
+    println!("9 * 9 = {}", 9 * 9);
+
     App::new()
         .add_plugins(DefaultPlugins.set(WindowPlugin {
             primary_window: Some(Window {
