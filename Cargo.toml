@@ -6,7 +6,6 @@ edition = "2024"
 [dependencies]
 bevy = { version = "0.19.1", features = ["bevy_dev_tools"] }
 bevy_asset = "0.19.1"
-blake3 = { version = "1.8", features = ["pure"] }
 serde = { version = "1.0.229", features = ["derive"] }
 
 # Ускорение сборки в dev-режиме:
